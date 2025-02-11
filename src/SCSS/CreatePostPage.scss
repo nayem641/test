@@ -1,0 +1,293 @@
+/* CreatePostPage.scss */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$pbc: #eeeeee;
+$wbc: white;
+$sbbc: #0a36c7;
+$gbc: linear-gradient(
+  to bottom right,
+  rgba(255, 255, 255, 0.8),
+  rgba(245, 247, 250, 0.9),
+  rgba(225, 233, 240, 0.8)
+);
+
+/* Container Styles */
+.create-post-container {
+  box-sizing: border-box;
+  min-height: 100vh;
+  max-width: 400px;
+  background: linear-gradient(to bottom, #fbfdff, hsl(214, 100%, 97%));  // Soft, light gray background for a calm effect
+  backdrop-filter: blur(20px); /* Glassy effect */
+  padding: 20px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  padding: 15px; /* Reduced padding for better alignment */
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgba(161, 157, 157, 0.2);
+}
+
+.back-button,
+.post-button {
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #1877f2;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.back-button {
+  font-size: 23px;
+}
+
+.post-button:hover {
+  color: #0056b3;
+}
+
+/* User Info Section */
+.user-info {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.user-details h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.user-details select {
+  border: none;
+  color: #252525;
+  border-radius: 5px;
+  padding: 2px 8px; /* Adjust padding for better alignment */
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400; /* Ensures font weight consistency */
+  line-height: 1.4; /* Aligns text within the select box */
+}
+
+.user-details select:focus {
+  outline: 1px solid #1877f2; /* Adds a blue border when focused */
+}
+
+/* Post Input Styles */
+.post-input {
+  width: 100%;
+  padding: 10px; /* Reduced padding for a more consistent feel */
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+  height: 150px;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+/* Background Options */
+.background-options {
+  display: flex;
+  gap: 7px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.background-color {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.background-color:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Post Options */
+.post-options {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin: 15px 0;
+  justify-content: space-around;
+}
+
+.post-options button {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  padding: 4px 3px;
+  color: rgba(51, 49, 49, 0.9);
+  border-radius: 3px;
+  background-color: rgba(193, 194, 196, 0.1);
+    box-shadow: 1px 1px 4px rgba(206, 205, 205, 0.5);
+
+  margin: 5px;
+}
+
+.post-options button:hover {
+  background-color: rgba(193, 194, 196, 0.5);
+}
+
+/* Individual button icon colors */
+.post-options .photos {
+  color: #1c2650;
+}
+
+.post-options .video {
+  color: crimson;
+}
+
+.post-options .location {
+  color: rgb(201, 120, 14);
+}
+
+.post-options .feeling {
+  color: coral;
+}
+
+.post-options .tag-friends {
+  color: #2633e4;
+}
+
+.post-options .event {
+  color: #833ab4;
+}
+
+/* Bottom Post Button */
+.bottom-post-button {
+  width: 100%;
+  background-color: #1877f2;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+    box-shadow: 1px 2px 4px rgba(134, 133, 133, 0.5);
+
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.bottom-post-button:hover {
+  background-color: #0056b3;
+}
+
+.bottom-post-button.clicked {
+  background-color: #16f7f7;
+  transform: scale(1.05);
+  color: rgb(124, 121, 121);
+}
+
+/* Font Options */
+.font-options {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  * {
+    background-color: transparent;
+  }
+}
+
+.font-options button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 20%;
+  border: none;
+  box-shadow: 1px 2px 4px rgba(193, 194, 196, 0.5);
+}
+
+.font-options button:hover {
+  background-color: #1877f2;
+  color: white;
+}
+
+.font-options .font-family-select {
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #ccc;
+}
+
+.font-options .font-family-select:hover {
+  background-color: #1877f2;
+}
+
+.font-options select {
+  font-family: inherit;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 4px;
+  width: auto;
+  max-width: 100px;
+  border-radius: 5px;
+}
+
+.font-options select:focus {
+  outline: none;
+  border-color: #1877f2;
+  background-color: #f3f7fc;
+}
+
+
+.share-story-button{
+  background-color: rgba(73, 54, 33, 0.8);
+margin: 0 auto; 
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 1px 1px 4px rgba(179, 177, 177, 0.3);
+}

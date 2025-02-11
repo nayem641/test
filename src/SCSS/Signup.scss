@@ -1,0 +1,181 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);  // Soft, light gray background for a calm effect
+  backdrop-filter: blur(10px);  // Blurred background for a glass-like effect
+  animation: slideInContainer 0.5s ease-out;  // Adding slide-in animation to the main container
+}
+
+.signup-form {
+  background: linear-gradient(to bottom, #fbfdff, hsl(214, 100%, 97%));  // Soft, light gray background for a calm effect
+  border-radius: 12px;
+  padding: 40px;
+  width: 90%;  // Set width to 90% of the container
+  max-width: 600px;  // Limit the max width for larger screens
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  // Soft shadow for depth
+  backdrop-filter: blur(8px);  // Slight blur for a polished, modern look
+  transition: all 0.3s ease-in-out;
+
+  h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #0093f5;  // Dark gray for a clean text color
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      position: relative;
+
+      .icon {
+        position: absolute;
+        left: 12px;
+        font-size: 20px;
+        color: #6c757d;  // Soft gray for icons
+        transition: color 0.3s ease;
+      }
+
+      input {
+        width: 100%;
+        padding: 10px 16px 10px 40px;  // Reduced padding for smaller input height
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+        color: #333;  // Dark text for input fields
+        outline: none;
+        background: #f7f7f7;  // Light background for input fields
+        transition: border-color 0.3s ease, background 0.3s ease;
+
+        &:focus {
+          border-color: #007bff;  // Blue border on focus
+          background: #ffffff;  // White background on focus
+        }
+
+        &:hover {
+          border-color: #007bff;  // Border changes when hovering
+        }
+      }
+    }
+  }
+
+  .social-login {
+    text-align: center;
+    margin-bottom: 30px;
+
+    p {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+
+      button {
+        background-color: rgba(221, 243, 237, 0.5);
+        border: 1px solid #ddd;
+        border-radius: 18px;
+        padding: 6px 12px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+
+        &.google {
+          color: #db4437;
+          font-weight: bold;
+        }
+
+        &.facebook {
+            font-weight: bold;
+          color: #3b5998;
+        }
+
+       
+      }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    .prev-btn, .next-btn, .submit-btn {
+      width: 100%;
+      padding: 8px 0;  // Larger height for buttons compared to inputs
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    .prev-btn {
+      background-color: #6c757d;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+    }
+
+    .next-btn {
+      background-color: #007bff;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+    }
+
+    .submit-btn {
+      background-color: #28a745;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ 
+    }
+  }
+
+  .license {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .slide-in {
+    animation: slideIn 0.5s ease-out;
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideInContainer {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

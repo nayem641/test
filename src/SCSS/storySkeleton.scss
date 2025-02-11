@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+$pbc: #fdfdfd;
+$sbc: #f7f4f4;
+$wbc: white;
+$img-light: #dcdcdc;
+$quantity-light: #ebe8e8;
+$authorname-light: #b3bdc0;
+
+// Keyframes for shimmer animation
+@keyframes shimmer {
+  0% {
+    background-position: -150% 0;
+  }
+  100% {
+    background-position: 150% 0;
+  }
+}
+
+// Keyframes for pulse animation
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}
+
+// Keyframes for sliding wave
+@keyframes sliding-wave {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 420px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 5px;
+  border-radius: 0px;
+
+  .item {
+    
+ height: 180px;
+    padding: 1px;
+    border-radius: 15px;
+
+    position: relative;
+
+
+    .img {
+      border-radius: 8px;
+
+      height: 100%;
+      width: 105px;
+      min-width: 60px;
+      object-fit: cover;
+
+      background: radial-gradient(
+        circle,
+        $img-light 10%,
+        #d9d9d9 50%,
+        $img-light 90%
+      );
+      background-size: 400% 400%;
+      animation: circular-shimmer 2.5s infinite ease-in-o;
+      background-size: 300% 100%;
+      animation: sliding-wave 2.5s infinite ease-in-out;
+      animation-delay: calc(var(--index) * 0.31s);
+    }
+
+    // Quantity with pulse animation
+    .number {
+            outline: 2px solid rgb(202, 224, 231);
+
+      position: absolute;
+      top: 7px;
+      left: 7px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      height: 32px;
+      width: 32px;
+      background: linear-gradient(
+        to right,
+          rgb(214, 212, 212) 8%,
+            #f0efef 18%,
+            rgb(226, 225, 225) 33%);
+      background-size: 300% 100%;
+      animation: sliding-wave 2.5s infinite ease-in-out;
+      animation-delay: calc(var(--index) * 0.135s);
+         img {
+        border-radius: 50%;
+        width: 20px;
+        min-width: 30px;
+        height: 30px;
+        object-fit: cover;
+
+      }
+    }
+.r1 {
+  position: absolute;
+  top: 65px;
+  left: 10px;
+  height: 12px;
+  width: 80px;
+  border-radius: 5px;
+  background: linear-gradient(to right,
+        rgb(214, 212, 212) 8%,
+        #f0efef 18%,
+        rgb(226, 225, 225) 33%);
+    background-size: 300% 100%;
+    animation: sliding-wave 2.5s infinite ease-in-out;
+    animation-delay: calc(var(--index) * 0.025s);
+}
+.r2 {
+  position: absolute;
+  top: 85px;
+  left: 10px;
+  height: 12px;
+  width: 60px;
+  border-radius: 5px;
+  background: linear-gradient(to right,
+  rgb(214, 212, 212) 8%,
+    #f0efef 18%,
+    rgb(226, 225, 225) 33%);
+  background-size: 300% 100%;
+  animation: sliding-wave 2.5s infinite ease-in-out;
+  animation-delay: calc(var(--index) * 0.3s);
+}
+
+    // Author name with sliding wave animation
+    .author {
+       position: absolute;
+      bottom: 10px;
+      left: 13px;
+      text-align: center;
+      width: 80px;
+      height: 18px;
+            border-radius: 5px;
+
+      background: linear-gradient(
+        to right,
+          rgb(214, 212, 212) 8%,
+            #f0efef 18%,
+            rgb(226, 225, 225) 33%);
+      background-size: 300% 100%;
+      animation: sliding-wave 2s infinite ease-in-out;
+      animation-delay: calc(var(--index) * 0.2s);
+    }
+
+  }
+   
+}
+// --------------not loading-------------------
+
+  .quantity {
+   
+      img {
+        border-radius: 50%;
+        width: 20px;
+        min-width: 30px;
+        height: 30px;
+        object-fit: cover;
+      }
+    }
+
+        .authorname {
+      position: absolute;
+      bottom: 5px;
+      left: 8px;
+      font-size: 13px;
+      color: rgb(56, 52, 52);
+            width: 15vw;
+            text-align: left;
+    }
+    .storycontent{
+      background-color: #f0f2f9;
+       border-radius: 8px;
+
+      height: 100%;
+      width: 30vw;
+      min-width: 60px;
+      object-fit: cover;
+    }
+.story-item{
+  padding: 1px;
+    outline: 1px solid rgba(88, 84, 84, 0.1);
+    border-radius: 10px;
+    height: 25vh;
+box-shadow:  2px  3px  -4px rgba(19, 18, 18, 0.6);
+    position: relative;
+
+}

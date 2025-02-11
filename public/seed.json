@@ -1,0 +1,586 @@
+{
+  "status": "ok",
+  "message": "Dummy data seeded successfully!",
+  "data": [
+    {
+      "fullName": "Harry Lakin",
+      "nickname": "Solon86",
+      "email": "Jace.Beatty73@hotmail.com",
+      "password": "Rk0vYQdCJRmC0nS",
+      "mobile": {
+        "primary": "1-560-372-6468"
+      },
+      "dob": "2021-03-09T20:05:08.615Z",
+      "education": {
+        "school": "Green, O'Conner and Price",
+        "college": "Kreiger - Morar",
+        "madrasha": "Bernhard, King and Greenfelder",
+        "university": "McClure, Gaylord and Jenkins"
+      },
+      "profession": {
+        "title": "International Solutions Assistant",
+        "company": "Barton - Donnelly"
+      },
+      "address": {
+        "street": "0805 Mertz Radial",
+        "city": "South Johanna",
+        "state": "Arkansas",
+        "country": "Ghana",
+        "postalCode": "83393-6228"
+      },
+      "isVerified": true,
+      "userRole": "user"
+    },
+    {
+      "fullName": "Aaron Welch",
+      "nickname": "Marlin.Hansen72",
+      "email": "Fausto.Lueilwitz27@yahoo.com",
+      "password": "sNvzJXUtktqhjX1",
+      "mobile": {
+        "primary": "1-439-488-5707"
+      },
+      "dob": "2020-02-11T20:33:19.901Z",
+      "education": {
+        "school": "Olson, Turcotte and Kling",
+        "college": "Sawayn, Rolfson and Gerlach",
+        "madrasha": "Conroy Inc",
+        "university": "Swaniawski - Mraz"
+      },
+      "profession": {
+        "title": "Customer Interactions Officer",
+        "company": "Greenholt - Ondricka"
+      },
+      "address": {
+        "street": "00108 Von Street",
+        "city": "West Alexandria",
+        "state": "Virginia",
+        "country": "Hungary",
+        "postalCode": "19037-6250"
+      },
+      "isVerified": false,
+      "userRole": "user"
+    },
+    {
+      "fullName": "Jesse Huels",
+      "nickname": "Carole.Marvin94",
+      "email": "Cathryn.Wilderman@hotmail.com",
+      "password": "LCRzvkXfOBewKs_",
+      "mobile": {
+        "primary": "314.518.4444 x649"
+      },
+      "dob": "2015-12-08T08:34:53.983Z",
+      "education": {
+        "school": "O'Conner Inc",
+        "college": "Rice - Bode",
+        "madrasha": "Shields - Cronin",
+        "university": "Morissette - Boyer"
+      },
+      "profession": {
+        "title": "Corporate Integration Designer",
+        "company": "Roob - Towne"
+      },
+      "address": {
+        "street": "2697 Ryann Parkway",
+        "city": "Rogers",
+        "state": "South Carolina",
+        "country": "Senegal",
+        "postalCode": "91925-4761"
+      },
+      "isVerified": true,
+      "userRole": "admin"
+    },
+    {
+      "fullName": "Darrel Prohaska",
+      "nickname": "Bryce24",
+      "email": "Johanna.Gleason@yahoo.com",
+      "password": "CFF3bQiOjs8k_Cv",
+      "mobile": {
+        "primary": "520.646.7672"
+      },
+      "dob": "2024-07-19T09:39:05.145Z",
+      "education": {
+        "school": "O'Keefe, Conn and Kunze",
+        "college": "Schinner, Hoeger and Aufderhar",
+        "madrasha": "Pfannerstill Inc",
+        "university": "Jenkins Inc"
+      },
+      "profession": {
+        "title": "Corporate Usability Strategist",
+        "company": "Schaden Inc"
+      },
+      "address": {
+        "street": "44401 Waelchi Path",
+        "city": "South Clay",
+        "state": "Ohio",
+        "country": "Cuba",
+        "postalCode": "69334"
+      },
+      "isVerified": true,
+      "userRole": "moderator"
+    },
+    {
+      "fullName": "Hazel Daniel",
+      "nickname": "Litzy_Will89",
+      "email": "Stewart_Schinner@yahoo.com",
+      "password": "QIJazv2glwTPDP3",
+      "mobile": {
+        "primary": "1-571-651-1244"
+      },
+      "dob": "2015-01-26T21:14:53.693Z",
+      "education": {
+        "school": "Nolan and Sons",
+        "college": "Rippin LLC",
+        "madrasha": "Walker Inc",
+        "university": "Stracke and Sons"
+      },
+      "profession": {
+        "title": "Dynamic Security Executive",
+        "company": "Simonis LLC"
+      },
+      "address": {
+        "street": "35839 Marquardt Mountain",
+        "city": "Lonieberg",
+        "state": "New Jersey",
+        "country": "Ukraine",
+        "postalCode": "72885"
+      },
+      "isVerified": true,
+      "userRole": "admin"
+    },
+    {
+      "fullName": "Joann Ernser",
+      "nickname": "Beryl21",
+      "email": "Vicenta_Ortiz@hotmail.com",
+      "password": "_vcOvtiZAe_S9fN",
+      "mobile": {
+        "primary": "1-890-560-5109"
+      },
+      "dob": "2017-03-11T21:25:56.963Z",
+      "education": {
+        "school": "Ondricka Group",
+        "college": "Rohan - Nitzsche",
+        "madrasha": "Cassin, Hilll and Flatley",
+        "university": "Ritchie, Smith and Morar"
+      },
+      "profession": {
+        "title": "District Paradigm Representative",
+        "company": "Torphy - Stokes"
+      },
+      "address": {
+        "street": "157 Senger Lake",
+        "city": "Hilpertburgh",
+        "state": "Virginia",
+        "country": "Panama",
+        "postalCode": "08190-7040"
+      },
+      "isVerified": true,
+      "userRole": "moderator"
+    },
+    {
+      "fullName": "Ms. Rex Morissette",
+      "nickname": "Leslie_Kovacek72",
+      "email": "Blair82@yahoo.com",
+      "password": "mFj65PRD3PS4Eyn",
+      "mobile": {
+        "primary": "594-570-7829"
+      },
+      "dob": "2018-09-03T21:43:47.495Z",
+      "education": {
+        "school": "Jacobi, Hermann and Kozey",
+        "college": "Osinski - Satterfield",
+        "madrasha": "Harris, Borer and Sanford",
+        "university": "Hilll - Bauch"
+      },
+      "profession": {
+        "title": "Principal Tactics Engineer",
+        "company": "Hand Inc"
+      },
+      "address": {
+        "street": "2160 Hank Brook",
+        "city": "Sparks",
+        "state": "Wyoming",
+        "country": "Northern Mariana Islands",
+        "postalCode": "16870"
+      },
+      "isVerified": false,
+      "userRole": "moderator"
+    },
+    {
+      "fullName": "Joey Wuckert",
+      "nickname": "Lenna28",
+      "email": "Harmony_Ankunding@hotmail.com",
+      "password": "60uDv5AfRu2Q3UN",
+      "mobile": {
+        "primary": "334.663.1263"
+      },
+      "dob": "1999-11-30T11:48:08.772Z",
+      "education": {
+        "school": "Smitham Group",
+        "college": "Cummings - Kohler",
+        "madrasha": "Haag Inc",
+        "university": "Bergnaum, Okuneva and Lynch"
+      },
+      "profession": {
+        "title": "Future Directives Technician",
+        "company": "Schamberger Group"
+      },
+      "address": {
+        "street": "89092 Linnie Forge",
+        "city": "Gretashire",
+        "state": "Oregon",
+        "country": "Republic of Korea",
+        "postalCode": "29383"
+      },
+      "isVerified": true,
+      "userRole": "moderator"
+    },
+    {
+      "fullName": "Vernon Tillman",
+      "nickname": "Leanne.Berge",
+      "email": "Dereck47@hotmail.com",
+      "password": "eg6l5I0RgQUrbiu",
+      "mobile": {
+        "primary": "774-910-3414 x65442"
+      },
+      "dob": "2018-09-19T16:38:12.945Z",
+      "education": {
+        "school": "O'Reilly and Sons",
+        "college": "Hermann - Christiansen",
+        "madrasha": "Metz LLC",
+        "university": "O'Hara, Zemlak and Hahn"
+      },
+      "profession": {
+        "title": "Future Brand Orchestrator",
+        "company": "Murphy - Effertz"
+      },
+      "address": {
+        "street": "23264 Boyle Road",
+        "city": "North Michaela",
+        "state": "Arizona",
+        "country": "Somalia",
+        "postalCode": "06708-3639"
+      },
+      "isVerified": false,
+      "userRole": "moderator"
+    },
+    {
+      "fullName": "Melissa Hermann",
+      "nickname": "Eva.Reinger",
+      "email": "Eudora.Nader@hotmail.com",
+      "password": "f7g0ugCt2LqjOwj",
+      "mobile": {
+        "primary": "1-867-399-7530 x92078"
+      },
+      "dob": "2002-01-17T13:00:18.585Z",
+      "education": {
+        "school": "Walker Group",
+        "college": "Emard, Stoltenberg and Donnelly",
+        "madrasha": "Zemlak - Gibson",
+        "university": "King, Rippin and Sauer"
+      },
+      "profession": {
+        "title": "Product Assurance Consultant",
+        "company": "Schaden, Erdman and Stehr"
+      },
+      "address": {
+        "street": "721 Gibson Cliff",
+        "city": "South Carey",
+        "state": "Louisiana",
+        "country": "Jamaica",
+        "postalCode": "80798"
+      },
+      "isVerified": true,
+      "userRole": "user"
+    },
+    {
+      "fullName": "Mrs. Constance Hodkiewicz",
+      "nickname": "Ebony.Langworth93",
+      "email": "Elian_Robel@yahoo.com",
+      "password": "yVhGbBTsYAm9Vyk",
+      "mobile": {
+        "primary": "(299) 418-1287"
+      },
+      "dob": "2019-02-22T18:28:13.256Z",
+      "education": {
+        "school": "Rau - Dickinson",
+        "college": "Gaylord - Lubowitz",
+        "madrasha": "Marquardt LLC",
+        "university": "Murphy, Hansen and Towne"
+      },
+      "profession": {
+        "title": "National Accounts Officer",
+        "company": "Brakus and Sons"
+      },
+      "address": {
+        "street": "821 Savannah Well",
+        "city": "Lake Alexastad",
+        "state": "Massachusetts",
+        "country": "Suriname",
+        "postalCode": "16893-2747"
+      },
+      "isVerified": false,
+      "userRole": "user"
+    },
+    {
+      "fullName": "Josephine Yundt",
+      "nickname": "Dallas_Kessler79",
+      "email": "Enos.Koelpin11@gmail.com",
+      "password": "enfoV_ZVllltS5Z",
+      "mobile": {
+        "primary": "678-582-1170"
+      },
+      "dob": "2020-08-23T07:55:06.533Z",
+      "education": {
+        "school": "Collins, Schoen and Weissnat",
+        "college": "Corwin - Murphy",
+        "madrasha": "Collins - Lueilwitz",
+        "university": "Schiller, Schowalter and Welch"
+      },
+      "profession": {
+        "title": "Lead Markets Assistant",
+        "company": "Corwin, Lind and Kulas"
+      },
+      "address": {
+        "street": "851 Dolores Port",
+        "city": "East Clare",
+        "state": "Georgia",
+        "country": "Niger",
+        "postalCode": "54084"
+      },
+      "isVerified": true,
+      "userRole": "moderator"
+    },
+    {
+      "fullName": "Charles Jones",
+      "nickname": "Felix58",
+      "email": "Christiana9@gmail.com",
+      "password": "XYyWTeRGRS_ldw6",
+      "mobile": {
+        "primary": "380.490.4021 x436"
+      },
+      "dob": "2017-07-31T12:21:09.088Z",
+      "education": {
+        "school": "Roberts - Kuphal",
+        "college": "Parisian, Greenholt and Hermann",
+        "madrasha": "Muller Group",
+        "university": "Gibson - Schaefer"
+      },
+      "profession": {
+        "title": "Principal Implementation Associate",
+        "company": "Little, Durgan and Beatty"
+      },
+      "address": {
+        "street": "58675 Alessandro Ferry",
+        "city": "Arleneville",
+        "state": "Virginia",
+        "country": "Liechtenstein",
+        "postalCode": "44054-5695"
+      },
+      "isVerified": false,
+      "userRole": "moderator"
+    },
+    {
+      "fullName": "Johanna Paucek",
+      "nickname": "Emelie.Wiegand19",
+      "email": "Terry.Leffler@yahoo.com",
+      "password": "l2vaTuia95Ki7wP",
+      "mobile": {
+        "primary": "1-634-687-3171 x21498"
+      },
+      "dob": "1998-11-26T14:20:09.662Z",
+      "education": {
+        "school": "Pfannerstill, Schulist and Bernhard",
+        "college": "Homenick - Wintheiser",
+        "madrasha": "Batz - Fay",
+        "university": "Reichel, Ryan and Kling"
+      },
+      "profession": {
+        "title": "Human Communications Supervisor",
+        "company": "Wiegand LLC"
+      },
+      "address": {
+        "street": "1077 Laurence Dam",
+        "city": "South Ova",
+        "state": "California",
+        "country": "Liberia",
+        "postalCode": "57791"
+      },
+      "isVerified": false,
+      "userRole": "user"
+    },
+    {
+      "fullName": "Chelsea Schroeder",
+      "nickname": "Nikolas.Smitham11",
+      "email": "Sofia78@hotmail.com",
+      "password": "yxbwawRgkzuf9yj",
+      "mobile": {
+        "primary": "1-932-429-8669"
+      },
+      "dob": "1996-03-08T16:25:06.876Z",
+      "education": {
+        "school": "Cassin, Gaylord and Von",
+        "college": "Larkin Inc",
+        "madrasha": "Morar, Wunsch and Roob",
+        "university": "Sawayn LLC"
+      },
+      "profession": {
+        "title": "Regional Research Orchestrator",
+        "company": "Hayes - Feest"
+      },
+      "address": {
+        "street": "605 Beahan Village",
+        "city": "Ceres",
+        "state": "Mississippi",
+        "country": "Switzerland",
+        "postalCode": "32411-8157"
+      },
+      "isVerified": false,
+      "userRole": "user"
+    },
+    {
+      "fullName": "Miss Agnes Spencer",
+      "nickname": "Jewel_Ryan",
+      "email": "Adan.Gleichner87@hotmail.com",
+      "password": "IwCKLz3T58HfRU2",
+      "mobile": {
+        "primary": "235-928-2802"
+      },
+      "dob": "2021-05-27T04:02:34.127Z",
+      "education": {
+        "school": "Hand LLC",
+        "college": "Wintheiser, Bogan and Kerluke",
+        "madrasha": "O'Keefe, Schneider and Heathcote",
+        "university": "Jenkins and Sons"
+      },
+      "profession": {
+        "title": "Dynamic Creative Associate",
+        "company": "Rath - Kerluke"
+      },
+      "address": {
+        "street": "838 Kozey Locks",
+        "city": "Johnsonmouth",
+        "state": "Louisiana",
+        "country": "Libyan Arab Jamahiriya",
+        "postalCode": "44803"
+      },
+      "isVerified": false,
+      "userRole": "user"
+    },
+    {
+      "fullName": "Anita Kuvalis",
+      "nickname": "Magnolia76",
+      "email": "Zechariah_Koelpin1@yahoo.com",
+      "password": "WsEAqye6Cb3mqLp",
+      "mobile": {
+        "primary": "226.371.7898"
+      },
+      "dob": "2012-06-22T09:19:38.344Z",
+      "education": {
+        "school": "Donnelly - Stehr",
+        "college": "Crona - Keebler",
+        "madrasha": "McCullough - Jast",
+        "university": "Goyette - Jakubowski"
+      },
+      "profession": {
+        "title": "Direct Interactions Specialist",
+        "company": "Gorczany - Cummings"
+      },
+      "address": {
+        "street": "577 Marge Run",
+        "city": "Phoenix",
+        "state": "Idaho",
+        "country": "Turks and Caicos Islands",
+        "postalCode": "58085"
+      },
+      "isVerified": false,
+      "userRole": "user"
+    },
+    {
+      "fullName": "Terrence Fahey",
+      "nickname": "Horacio40",
+      "email": "Melyna6@yahoo.com",
+      "password": "I2hYXNVi6WaBNPo",
+      "mobile": {
+        "primary": "818.981.8329 x08458"
+      },
+      "dob": "2012-09-02T14:37:31.446Z",
+      "education": {
+        "school": "Breitenberg - Kovacek",
+        "college": "Hagenes - Koepp",
+        "madrasha": "Volkman, Larson and Feeney",
+        "university": "Turner and Sons"
+      },
+      "profession": {
+        "title": "Forward Accounts Analyst",
+        "company": "Ankunding, Weber and Hand"
+      },
+      "address": {
+        "street": "4169 Richmond Rest",
+        "city": "South Shemarshire",
+        "state": "Arkansas",
+        "country": "Bangladesh",
+        "postalCode": "67883-2394"
+      },
+      "isVerified": true,
+      "userRole": "user"
+    },
+    {
+      "fullName": "Elena Brakus",
+      "nickname": "Zita.Veum40",
+      "email": "Cleve70@gmail.com",
+      "password": "bbouoH0oetKuqMw",
+      "mobile": {
+        "primary": "(337) 975-4961"
+      },
+      "dob": "2004-03-10T07:45:37.924Z",
+      "education": {
+        "school": "Quigley - McKenzie",
+        "college": "Effertz LLC",
+        "madrasha": "Fahey - Blick",
+        "university": "Boyer, Schoen and Bartoletti"
+      },
+      "profession": {
+        "title": "Principal Data Orchestrator",
+        "company": "Doyle, Toy and Bosco"
+      },
+      "address": {
+        "street": "5224 Hackett Vista",
+        "city": "Reichertfurt",
+        "state": "Wisconsin",
+        "country": "Netherlands",
+        "postalCode": "55973"
+      },
+      "isVerified": true,
+      "userRole": "moderator"
+    },
+    {
+      "fullName": "Ms. Dennis Hintz",
+      "nickname": "Jimmie.Ullrich",
+      "email": "Ewell.Nitzsche@yahoo.com",
+      "password": "WfADdoUTZfm4R7N",
+      "mobile": {
+        "primary": "(561) 942-1500"
+      },
+      "dob": "2002-11-19T07:31:55.817Z",
+      "education": {
+        "school": "Lakin Inc",
+        "college": "Harvey, Reynolds and Bernier",
+        "madrasha": "Abbott Group",
+        "university": "Altenwerth - Feest"
+      },
+      "profession": {
+        "title": "Human Web Executive",
+        "company": "Ondricka, Prohaska and Cronin"
+      },
+      "address": {
+        "street": "7742 Connelly Lake",
+        "city": "South Jadenside",
+        "state": "Colorado",
+        "country": "Swaziland",
+        "postalCode": "46408-7047"
+      },
+      "isVerified": false,
+      "userRole": "moderator"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$pbc: #ececec;
+
+.main-container {
+  // background-color: $pbc;
+    // background: linear-gradient(to right, #e0eafc, #cfdef3);  // Soft, light gray background for a calm effect
+
+  max-width: 420px;
+  // position: relative;
+}
+
+

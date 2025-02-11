@@ -1,0 +1,98 @@
+.settings-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  background: var(--background-color, #ffffff);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+
+  &.dark {
+    --background-color: #2c2c2c;
+    --text-color: #ffffff;
+  }
+
+  &.light {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+
+  .settings-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+  }
+
+  .settings-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.05);
+    transition: background 0.3s;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    .icon {
+      font-size: 1.5rem;
+      color: var(--text-color);
+    }
+
+    .details {
+      flex: 1;
+      margin-left: 1rem;
+
+      h3 {
+        margin: 0;
+        font-size: 1.2rem;
+        color: var(--text-color);
+      }
+
+      p {
+        margin: 0.3rem 0 0;
+        font-size: 0.9rem;
+        color: var(--text-color);
+      }
+    }
+
+    .action-button, .language-select {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      border-radius: 5px;
+      border: none;
+      background: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background: #0056b3;
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+
+    .save-button {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: none;
+      background: #28a745;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background: #218838;
+      }
+    }
+  }
+}

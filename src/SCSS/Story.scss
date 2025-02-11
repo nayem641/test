@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+$pbc: #eeeeee;
+$sbc: #f0f2f9;
+$wbc: white;
+$pbbc: #019401;
+$sbbc: #0a36c7;
+$bxsc: #c4c7c4;
+$gbc: linear-gradient(
+  to bottom right,
+  rgba(255, 255, 255, 0.8),
+  rgba(245, 247, 250, 0.9),
+  rgba(225, 233, 240, 0.8)
+);
+
+.stories-container {
+  max-width: 420px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  background-color: $wbc;
+  padding: 5px;
+  gap: 5px;
+  border-radius: 0px;
+  margin: 3px 0;
+  backdrop-filter: blur(10px); /* Glassy effect */
+  box-shadow: 0 2px 2px rgba(66, 66, 66, 0.1),
+    /* Main shadow */ inset 0 1px 0 rgba(255, 255, 255, 0.6); /* Inner polish */
+
+  .story-item {
+    height: 180px;
+    padding: 1px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    position: relative;
+    img {
+      border-radius: 8px;
+
+      height: 100%;
+      width: 105px;
+      min-width: 60px;
+      object-fit: cover;
+      
+    }
+
+    .quantity {
+      position: absolute;
+      top: 7px;
+      left: 7px;
+      background-color: rgba(72, 111, 194, 0.5);
+
+      outline: 1px solid rgb(212, 214, 214);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30%;
+      img {
+        width: 20px;
+        min-width: 30px;
+        height: 30px;
+        object-fit: cover;
+      }
+    }
+    .authorname {
+      position: absolute;
+      bottom: 5px;
+      left: 8px;
+      font-size: 13px;
+      color: rgb(40, 51, 58);
+    }
+  }
+}

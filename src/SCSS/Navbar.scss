@@ -1,0 +1,61 @@
+$wbc: white;
+$sbbc: #0a36c7;
+
+.navbar-container {
+  position: sticky;
+  top: -2px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+
+  background: $wbc;
+
+  padding: 2px 5px;
+  .nav-item {
+    margin: 0 5px;
+    span {
+      margin: 5px;
+      position: absolute;
+      top: 0px;
+      right: 62px;
+      color: $wbc;
+      border-radius: 50%;
+      height: 18px;
+      min-width: 18px;
+      text-align: center;
+      font-size: 10px;
+      font-weight: bold;
+      background-color: red;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .nav-icon { 
+      font-size: 29px;
+      text-decoration: none;
+      color: rgb(41, 37, 37);
+
+      
+    }
+  
+    a:hover {
+      color:#256ef5;
+    }
+    .active {
+  color:#256ef5;
+      font-size: 28px;
+      // border-bottom: 2px solid;
+      // background-color: rgba(189, 189, 189, 0.2);
+ 
+    }
+  }
+}
+
+.menuPopup-item:hover {
+  background-color: rgba(140, 153, 153, 0.2);
+}
+
+.plusPopup-item:hover {
+  background-color: rgba(140, 153, 153, 0.2);
+}

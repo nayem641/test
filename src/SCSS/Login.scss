@@ -1,0 +1,144 @@
+/* Add this globally to fix box-sizing issues */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Main App Container */
+.app-container {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Login Box Styling */
+.login-box {
+  max-width: 400px; /* Set a max width to prevent overflow */
+  width: 90%; /* Use percentage for responsiveness */
+  background: linear-gradient(to bottom, #fbfdff, hsl(214, 100%, 97%)); /* Soft, light gray background */
+  padding: 25px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(-30px); /* Start with a slide-down effect */
+  transition: opacity 0.8s ease, transform 0.8s ease;
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0); /* Move to the original position */
+  }
+
+  .title {
+    font-size: 24px;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  form {
+    .input-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      transition: border 0.3s ease, background-color 0.3s ease;
+
+      &:focus-within {
+        border-color: #007bff;
+        background-color: #f0f8ff;
+      }
+
+      .icon {
+        margin-right: 10px;
+        font-size: 18px;
+        color: #aaa;
+      }
+
+      input {
+        border: none;
+        outline: none;
+        flex: 1;
+        font-size: 14px;
+        color: #333;
+        background: transparent;
+
+        &::placeholder {
+          color: #999;
+        }
+      }
+    }
+
+    .btn-primary {
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        background: #0056b3; /* Darken by 10% */
+      }
+    }
+  }
+
+  .divider {
+    margin: 15px 0;
+    color: #888;
+    font-size: 14px;
+  }
+
+  .social-buttons {
+    display: flex;
+    justify-content: space-between;
+
+    .btn-social {
+      
+      margin: 0 5px;
+      padding: 10px;
+      font-size: 15px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+
+      &.google {
+        background: #db4437;
+        color: white;
+        background-color: rgba(231, 51, 51, 0.87);
+      }
+
+      &.facebook {
+        background: #4267B2;
+        color: white;
+      }
+
+      &:hover {
+        opacity: 0.9; /* Slight hover effect */
+      }
+    }
+  }
+
+  .create-account {
+    margin-top: 20px;
+    font-size: 14px;
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  } 
+}

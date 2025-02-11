@@ -1,0 +1,32 @@
+.createpost-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 420px;
+  gap: 5px;
+
+
+ 
+  div {
+    display: flex;
+    margin: 2px;
+    input {
+      padding:8px 20px;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      background-color: #e7eaee;
+      font-size: 16px;
+      width: 72vw;
+      cursor: pointer;
+    }
+  }
+
+  img {
+    height: 35px;
+    object-fit: cover;
+    // cursor: pointer;
+    border-radius: 50%;
+ 
+  }
+}
